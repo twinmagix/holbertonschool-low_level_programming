@@ -1,6 +1,10 @@
-#!/bin/bash
 #include <stdio.h>
-// function main begins
+
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 
 int main(void)
 {
