@@ -10,12 +10,9 @@
 */
 int main(void)
 {
-	int dig;
-
-	for (dig = 0; dig < 10; dig++)
-	{
-	   putchar(dig + '0');
-	   putchar('\n');
-	}
-	   return (0);
+	int a;
+	for (a = 0; a < 10 ; a++)
+	putchar('0' + a);
+	putchar('\n');
+	return (0);
 }

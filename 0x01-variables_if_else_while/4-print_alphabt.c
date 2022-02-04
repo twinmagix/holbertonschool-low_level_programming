@@ -4,22 +4,17 @@
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
+
 int main(void)
 {
-	
-        /* print lowercase letters except q and e */
-
-	char ch;
-
-        for (ch= ‘a’; ch<= ‘z’; ch++)
+	char a;
+	for (a = 'a'; a <= 'z' ; a++)
 	    {
-	      if (ch != 'q' && ch != 'e')
-		 {
-                  putchar(ch);
-		 }
-                  putchar (‘\n’) ;
-
-
+	     if (a == 'q' || a == 'e'){
+		continue;
+	    }
+		putchar(a);
+	    }
+		putchar('\n');
 	return (0);
 }
-
