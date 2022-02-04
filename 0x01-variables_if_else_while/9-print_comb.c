@@ -1,5 +1,6 @@
+#include <stdlib.h>
+#include <time.h>
 #include <stdio.h>
-
 /**
 * main - Print all possible combinations of single digit numbers
 *
