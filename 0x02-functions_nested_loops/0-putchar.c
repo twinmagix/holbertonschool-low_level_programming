@@ -6,12 +6,12 @@
  */
 int main()
 {
-  
-    // Get the character to be written
     char ch = 'G';
-  
-    // Write the Character to stdout
-    putchar(ch);
-  
+ 
+    for (ch=0; ch<9; ch++) 
+    {
+     _putchar(ch);    
+    }
+    _putchar('\n');
     return (0);
 }
