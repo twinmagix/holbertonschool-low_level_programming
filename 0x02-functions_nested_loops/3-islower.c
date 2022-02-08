@@ -7,18 +7,15 @@
 *
 * Return: 1 for lowercase. 0 for the rest.
 */
-int main(void)
+int _islower(int c)
 {
- int a = 'c';
- int b = '3';
-
- if( islower(a))
- {
+  if (c >= 97 && c <= 122)
+  {
   return (1);
- }
- else if( islower(b))
- {
- return (0)
- }
-_putchar('\n');
+  }
+  else
+  {
+  return (0);
+  }
+  _putchar('\n');
 }

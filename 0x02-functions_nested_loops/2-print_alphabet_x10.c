@@ -1,17 +1,17 @@
 #include <main.h>
 /**
- * main - represent Entry Point to the program
+ * print_alphabet_x10 -  prints the alphabet x10
  *
- * Return: 0 to stop the program
  */
 void print_alphabet_x10(void)
 {
- int c, z;
+ int c, d;
  for (c=0; c <=9; c++)
  {
- for (z=0; z<=25; z++)
+ for (d='a'; d<='z'; d++)
  { 
- _putchar(z);
+ _putchar(d);
  }
  _putchar('\n')
+}
 }
