@@ -1,10 +1,10 @@
-#include <main.h>
+#include "main.h"
 /**
-* main - Print the word "Holberton"
+* main - Print the word "-putchar"
 *
 * Return: Always 0 (Success)
 */
-int main()
+int main(void)
 {
 	_putchar('_');
 	_putchar('p');
