@@ -6,12 +6,13 @@
  */
 int main()
 {
-    char ch = 'G';
- 
-    for (ch=0; ch<9; ch++) 
-    {
-     _putchar(ch);    
-    }
+   int ch;
+   char p[] = "School";
+   
+   for (ch=0; ch<9; ch++) 
+   {
+     _putchar(p[ch]);    
+   }
     _putchar('\n');
-    return (0);
+return (0);
 }
