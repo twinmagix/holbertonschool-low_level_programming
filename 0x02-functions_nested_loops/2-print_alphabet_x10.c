@@ -5,13 +5,15 @@
  */
 void print_alphabet_x10(void)
 {
- int c, d;
- for (c=0; c <=9; c++)
- {
- for (d='a'; d<='z'; d++)
- { 
- _putchar(d);
- }
- _putchar('\n')
-}
+	int alpha;
+	int alpha2;
+
+	for (alpha = 0; alpha <= 9; alpha++)
+	{
+		for (alpha2 = 'a'; alpha2 <= 'z'; alpha2++)
+		{
+			_putchar(alpha2);
+		}
+		_putchar('\n');
+	}
 }
