@@ -1,16 +1,20 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
-* more_numbers to print from 0 to 14 with a new line.
-* @c: Variable text
-* Return: Always 0.
-*/
-
+ * more_numbers - Prints the numbers 0-14 ten times.
+ */
 void more_numbers(void)
 {
-char c;
-for (c = '0'; c <= '14'; c++)
-_putchar(c);
-_putchar('\n');
+int num, count;
+
+for (count = 0; count <= 9; count++)
+{
+ for (num = 0; num <= 14; num++)
+ {
+  if (num > 9)
+  _putchar((num / 10) + '0');
+  _putchar((num % 10) + '0');
+ }
+ _putchar('\n');
+}
 }
