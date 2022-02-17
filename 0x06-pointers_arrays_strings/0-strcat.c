@@ -9,20 +9,13 @@
 char *_strcat(char *dest, char *src)
 {
 
-    int i, j;
- 
-    // move to the end of the destination string
-    for (i = 0; dest[i] != '\0'; i++);
- 
-    // `i` now point to terminating null character in the destination
- 
-    // Appends characters of the source to the destination string
-    for (j = 0; source[j] != '\0'; j++) {
-        dest[i + j] = source[j];
-    }
+	int x = 0, dl = 0;
 
-    dest[i + j] = '\0';
- 
-    return dest;
+	while (dest[x++])
+		dl++;
 
+	for (index = 0; src[x]; x++)
+		dest[dl++] = src[x];
+
+	return (dest);
 }
