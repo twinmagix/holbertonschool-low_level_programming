@@ -1,5 +1,5 @@
 #include <stnlib.h>
-#include "hmain.h"
+#include "main.h"
 /**
 * _strstr - locates a substring
 *
