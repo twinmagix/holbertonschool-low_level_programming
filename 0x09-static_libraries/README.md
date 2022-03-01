@@ -1,2 +1,1 @@
-Welcome to the C programming C - Static libraries!!
-
+Welcome to C statistic!!
